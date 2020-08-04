@@ -57,4 +57,4 @@ jobs:
         flake8 . --count --exit-zero --max-complexity=10 --max-line-length=127 --statistic
     - name: Run tests with unittest
       run: |
-        python -m unittest
+        python -m unittest -v
